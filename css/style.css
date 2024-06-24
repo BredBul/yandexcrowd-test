@@ -15,6 +15,8 @@
 
 html {
 	font-size: calc(1 * 62.5%);
+	scroll-behavior: smooth;
+	scroll-padding-top: 20px;
 }
 
 html,
