@@ -360,6 +360,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	const sliderParticipants = new Slider("#slider-participants", {
 		slidesToShow: 1,
 		speed: 500,
+		autoSlide: true,
+		autoSlideInterval: 4000,
 		gap: 0,
 		loop: true,
 		pagination: true,
